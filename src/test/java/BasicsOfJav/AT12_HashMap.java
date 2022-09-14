@@ -15,8 +15,9 @@ public class AT12_HashMap {
         map.put("Bianca",8);
         System.out.println("Key values in hasmap are : "+map);
         //size of hasmap
-        int mapsize= map.size();
+        int mapsize= map.size(); //3
         System.out.println("hasmap size is : "+mapsize);
+        //we provide key, then it will
         System.out.println("key value for "+" Bianca is "+map.get("Bianca"));
         if(map.containsKey("Ricky")){
             int keyval= map.get("Ricky");
